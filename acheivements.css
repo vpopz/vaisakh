@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.navg{
+    float: right;
+    margin: 20px 10px;
+    padding:10px;
+}
+
+.navg>a{
+    color:white;
+    text-decoration:none;
+    margin:5px;
+    border: 2px solid darkgreen;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.navg>a:hover{
+    background-color:darkgreen;
+    border: 1px solid white;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-image: url(./images/DSC_2886.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ach{
+    position:absolute;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:150px
+}
+
+.ach>h1{
+    font-size: 45px;
+    padding:10px
+    
+}
+
+.ach>ul>li{
+    list-style-type: square;
+    padding: 5px;
+}
+#lay{
+    position:absolute;
+    height:200px;
+    width:1100px;
+    margin:210px;
+    margin-left: 130px;
+    opacity: 45%;
+    text-shadow: aqua;
+}
+.bot{
+    height:22.3px;
+    width:100%;
+    display: inline-block;
+    margin:47% 0px 0px 0px;
+    background-color: darkgreen;
+    position: absolute;
+}
+#all{
+    color:white;
+    text-align:center;
+}
+#twi{ 
+    position:absolute; 
+    height:30px; 
+    opacity: 70%; 
+    margin-left:590px ; 
+    margin-block: 605px; 
+} 
+ #twi:hover{ 
+    transition: .5s ease-in-out; 
+ opacity:100%; 
+ } 
+
+#lin{
+    position:absolute;
+    height:30px;
+    opacity: 70%;
+    margin-left:730px ;
+margin-block: 605px;
+}
+#lin:hover{
+    transition: .5s ease-in-out;
+    opacity:100%;
+}
+
+#ins{
+    position:absolute;
+    height:30px;
+    opacity: 70%;
+    margin-left:520px ;
+margin-block: 605px;
+}
+#ins:hover{
+    transition: .10s ease-in-out;
+    opacity:100%;
+}
+
+#dis{
+    position:absolute;
+    height:30px;
+    opacity: 70%;
+    margin-left:660px ;
+margin-block: 605px;
+}
+#dis:hover{
+    transition: .10s ease-in-out;
+    opacity:100%;
+}
+
+#git{
+    position:absolute;
+    height:30px;
+    opacity: 70%;
+    margin-left:790px ;
+    margin-block: 605px;
+    background-color: beige;
+    border-radius:15px ;
+
+}
+#git:hover{
+    transition: .10s ease-in-out;
+    opacity:100%;
+}
